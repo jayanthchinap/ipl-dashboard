@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.team-card-link {
+  text-decoration: none;
+  width: 40%;
+  margin: 10px;
+}
+.team-card {
+  width: 100%;
+  margin: 10px;
+  border: 1px solid #ffffff;
+  height: 150px;
+  background-color: #ffffff33;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.team-card-image {
+  width: 35%;
+  height: 75%;
+}
+.team--card-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .team-card-link {
+    text-decoration: none;
+    width: 42%;
+    margin: 10px;
+  }
+  .team-card {
+    width: 100%;
+    margin: 5px;
+    border: 1px solid #ffffff;
+    height: 80px;
+    background-color: #ffffff33;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+  }
+  .team--card-name {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Bree Serif';
+    text-align: center;
+  }
+}
